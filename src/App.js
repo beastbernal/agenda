@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Cards from "./Components/Cards";
+import Card from "./Components/Card";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <Cards></Cards>
+      <Card></Card>
     </div>
   );
 }
